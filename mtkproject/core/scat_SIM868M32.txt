@@ -1,0 +1,24 @@
+APP  0x90300000 0x00080000
+{
+  APPCFG 0x90300000
+  { 
+      * (APP_CFG)
+  }
+
+  APP0 +0
+  {	
+    main.o* (APPENTRY)
+  }
+  APP1 +0
+  {
+    main.o* (+RO)
+    *.o*    (+RO)
+  }
+
+  APP_RAM   0xF0390000 0x00060000
+  {
+    main.o  (+RW,+ZI)
+    *.o     (+RW,+ZI)
+  }  
+}
+

@@ -1,0 +1,25 @@
+;#<FEEDBACK># ARM Linker, RVCT3.1 [Build 569]: Last Updated: Tue Nov 14 13:39:57 2017
+;VERSION 0.2
+;FILE ENCodeDECode.o
+GetCrc16 <= USED 0
+GetPosition <= USED 0
+GetKey <= USED 0
+insert_c <= USED 0
+del_positionchar <= USED 0
+del_char <= USED 0
+SoftwareIDdecoder <= USED 0
+byteToHexStr <= USED 0
+compress <= USED 0
+SoftwareID_encode <= USED 0
+Decrypt <= USED 0
+;FILE getrawdata.o
+;FILE main.o
+app_user1 <= USED 0
+$Sub$$__user_initial_stackheap <= USED 0
+;FILE queue_buf.o
+queue_buf_Destroy <= USED 0
+queue_buf_Free <= USED 0
+queue_buf_IsEmpty <= USED 0
+queue_buf_IsFull <= USED 0
+queue_buf_New <= USED 0
+queue_buf_Peek_rv <= USED 0

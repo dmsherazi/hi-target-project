@@ -1,0 +1,9 @@
+1.Purpose
+  For 尹家军
+2.Revision information
+  jira 号：SIM800-525
+3.Function
+  完善eat cgnstst打印
+4.Author
+  李徙平
+  

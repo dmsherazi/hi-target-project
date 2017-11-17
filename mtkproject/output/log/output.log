@@ -1,0 +1,60 @@
+"MTKGSM.h", line 66: Warning:  #1295-D: Deprecated declaration GSMCtrl - give arg types
+  int GSMCtrl();
+      ^
+"MTKGSM.h", line 69: Warning:  #1295-D: Deprecated declaration GSMClose - give arg types
+  int GSMClose();
+      ^
+"ENCodeDecode.h", line 33: Warning:  #1-D: last line of file ends without a newline
+   #endif
+         ^
+"main.c", line 56: Warning:  #47-D: incompatible redefinition of macro "EAT_DEBUG_STRING_INFO_MODE" (declared at line 55)
+  #define EAT_DEBUG_STRING_INFO_MODE
+          ^
+"main.c", line 57: Warning:  #47-D: incompatible redefinition of macro "EAT_UART_RX_BUF_LEN_MAX" (declared at line 11 of "MTKGSM.h")
+  #define EAT_UART_RX_BUF_LEN_MAX  (1024*4)
+          ^
+"main.c", line 58: Warning:  #47-D: incompatible redefinition of macro "NMEA_BUFF_SIZE" (declared at line 12 of "MTKGSM.h")
+  #define NMEA_BUFF_SIZE 100
+          ^
+"main.c", line 103: Warning:  #1296-D: extended constant initialiser used
+  APP_ENTRY_FLAG 
+  ^
+"main.c", line 103: Warning:  #1296-D: extended constant initialiser used
+  APP_ENTRY_FLAG 
+  ^
+"main.c", line 266: Warning:  #223-D: function "GetOneMsg" declared implicitly
+  				res = GetOneMsg(&rawdata_q,msg,rcv_len);//将队列内数组解析为一条语�?  				      ^
+"main.c", line 272: Warning:  #223-D: function "DecodeMTKmsg" declared implicitly
+  				res = DecodeMTKmsg(msg,res, &rawdata_t);//解析语句
+  				      ^
+"main.c", line 166: Warning:  #177-D: variable "event" was declared but never referenced
+  	EatEvent_st event;
+  	            ^
+"main.c", line 172: Warning:  #177-D: variable "EncryptedTime" was declared but never referenced
+  	unsigned char EncryptedTime[10];
+  	              ^
+"main.c", line 291: Warning:  #177-D: variable "user1_buf" was declared but never referenced
+  	unsigned char user1_buflen = 0;
+  	              ^
+"main.c", line 292: Warning:  #177-D: variable "user1_buflen" was declared but never referenced
+  //	eat_trace("here is the user1 app ^^^^^^^^^^^^^^^^^^^^^^^^");
+    	            ^
+"main.c", line 76: Warning:  #177-D: variable "eat_uart_app" was declared but never referenced
+  static const EatUart_enum eat_uart_app= EAT_UART_2;
+                            ^
+"main.c", line 78: Warning:  #177-D: variable "eat_uart_at" was declared but never referenced
+  static const EatUart_enum eat_uart_at = EAT_UART_1;
+                            ^
+"main.c", line 79: Warning:  #177-D: variable "wr_uart_offset" was declared but never referenced
+  static u16 wr_uart_offset = 0;
+             ^
+"main.c", line 80: Warning:  #177-D: variable "wr_uart_len" was declared but never referenced
+  static u16 wr_uart_len = 0;
+             ^
+"main.c", line 81: Warning:  #177-D: variable "gps_info_buf" was declared but never referenced
+  static char gps_info_buf[NMEA_BUFF_SIZE]="";
+              ^
+"G:\mtk_getrawdata1103/core/inc/eat_clib_define.h", line 32: Warning: C3017W: <arg.4> may be used before being set
+    struct __argc_argv arg;
+                       ^
+main.c: 20 warnings, 0 errors
